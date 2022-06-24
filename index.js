@@ -133,21 +133,7 @@ document.querySelectorAll('#likebtn').forEach(function(child) {
             input1.value = parseInt(input1.value) + 1;
             input1.style.color = "green";
             console.log('1st post like');
-            input3.value = parseInt(input3.value) + 1;
-            input3.style.color = "green";
-            console.log('2nd post like');
-            input5.value = parseInt(input5.value) + 1;
-            input5.style.color = "green";
-            console.log('3rd post like');
-            input7.value = parseInt(input7.value) + 1;
-            input7.style.color = "green";
-            console.log('4th post like');
-            input9.value = parseInt(input9.value) + 1;
-            input9.style.color = "green";
-            console.log('5th post like');
-            input11.value = parseInt(input11.value) + 1;
-            input11.style.color = "green";
-            console.log('6th post like');
+
         }
     });
 
@@ -162,21 +148,7 @@ document.querySelectorAll('#dislikebtn').forEach(function(child) {
             input2.value = parseInt(input2.value) + 1;
             input2.style.color = "red";
             console.log('1st post dislike');
-            input4.value = parseInt(input4.value) + 1;
-            input4.style.color = "red";
-            console.log('2nd post dislike');
-            input6.value = parseInt(input6.value) + 1;
-            input6.style.color = "red";
-            console.log('3rd post dislike');
-            input8.value = parseInt(input8.value) + 1;
-            input8.style.color = "red";
-            console.log('4th post dislike');
-            input10.value = parseInt(input10.value) + 1;
-            input10.style.color = "red";
-            console.log('5th post dislike');
-            input12.value = parseInt(input12.value) + 1;
-            input12.style.color = "red";
-            console.log('6th post dislike');
+
         }
     })
 })
@@ -223,7 +195,6 @@ function getExchange(conversion_rate) {
 
                 // display the conversion rates
                 document.getElementById("conversion").innerHTML = `<div class="conversion-rates">
-                
                 <p>1 USD = ${exchange_rate_in_euro} EUR</p>
                 <p>1 USD = ${exchange_rate_in_pound} GBP</p>
                 <p>1 USD = ${exchange_rate_in_yen} JPY</p>

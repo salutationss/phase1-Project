@@ -214,4 +214,4 @@ function getExchange(conversion_rate) {
 
 
 
-console.log(getExchange("USD"));
+console.log(getExchange());

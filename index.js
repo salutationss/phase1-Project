@@ -174,7 +174,6 @@ function getExchange(conversion_rate) {
             let exchange_rate_in_ruble = exchange_rate * 63.01;
             let exchange_rate_in_yuan = exchange_rate * 6.78;
             let exchange_rate_in_hkd = exchange_rate * 7.81;
-            let exchange_rate_in_bitcoin = conversion_rate.conversion_rates.BTC;
             let time = conversion_rate.time_last_update_unix;
             let time_last_update = new Date(time * 1000);
             console.log(exchange_rate);
@@ -187,7 +186,7 @@ function getExchange(conversion_rate) {
             console.log(exchange_rate_in_yen);
             console.log(conversion_rates)
 
-            conversion_rates.push(exchange_rate, exchange_rate_in_euro, exchange_rate_in_pound, exchange_rate_in_yen, exchange_rate_in_bitcoin);
+            conversion_rates.push(exchange_rate, exchange_rate_in_euro, exchange_rate_in_pound, exchange_rate_in_yen);
             console.log(conversion_rate)
 
             document.getElementById("convert").addEventListener("click", function() {

@@ -120,7 +120,7 @@ let input7 = document.querySelector("#input7");
 let input8 = document.querySelector("#input8");
 let input9 = document.querySelector("#input9");
 let input10 = document.querySelector("#input10");
-let input11 = document.querySelector("#input11");
+
 
 
 let clicked = true;
